@@ -4,7 +4,7 @@ import Users from "../assets/usersicon.svg";
 
 const JobCard = ({ job }) => {
   return (
-    <div className="border rounded-lg p-6 w-72 shadow-md bg-white">
+    <div className="border rounded-xl h-55 p-4 w-90 shadow-md bg-white">
       <div className="flex items-center gap-2  mb-5">
         <img src={job.logo} alt={job.company} className="w-20 h-20 mb-9" />
         <div>
